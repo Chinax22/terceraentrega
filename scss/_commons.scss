@@ -1,0 +1,17 @@
+@mixin titulo($font-family, $font-size, $font-weight) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+}
+
+@mixin texto($font-family, $font-size) {
+    font-family: $font-family;
+    font-size: $font-size;
+}
+@mixin footer($font-family, $font-size, $color) {
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $color;
+}
+
+$colorMain: rgb(127, 191, 218);

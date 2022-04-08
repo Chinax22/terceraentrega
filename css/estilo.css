@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: Parisienne;
+  font-size: 3em;
+  font-weight: bold; }
+
+h3 {
+  font-family: Parisienne;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+h4 {
+  font-family: Roboto;
+  font-size: 1.5em; }
+
+h5 {
+  font-family: Parisienne;
+  font-size: 1.5em;
+  color: white; }
+
+h2 {
+  font-family: Parisienne;
+  font-size: 2em;
+  font-weight: bold; }
+
+.encabezado h3 {
+  text-align: center; }
+
+.navbar {
+  background-color: #7fbfda;
+  padding: 5px 20px; }
+
+/*css base*/
+.col-sm-12 h3{
+  width: 100%;
+  height: auto;
+  padding: 20px 40px;
+}
+.col-sm-12 h2:first-of-type{
+  font-weight: bold;
+}
+.col-sm-12 h2:before,
+.col-sm-12 h2:after{
+  content: "❣"
+}
+
+img[src$="img/dermopulidocorporal.jpeg"]{
+  width: 300px;
+  height: 300px;
+}
+img[src$="img/puntadediamante.jpeg"]{
+  width: 300px;
+  height: 300px;
+}
+body{
+  background-image: url(../img/fondo.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.avatar{
+  border-radius: 50%;
+  border-style: groove;
+}
+.icono{
+  width: 50px;
+}
+.textoHead{
+  display: inline;
+  margin-left: -30px;
+}
+#pie{
+  background-color: #7fbfda;
+}
+
+@media (min-width: 280px) and (max-width:356px){
+  img[src$="img/puntadediamante.jpeg"]{
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 280px) and (max-width:356px){
+  img[src$="img/dermopulidocorporal.jpeg"]{
+    width: 200px;
+    height: 200px;
+  }
+}
+    

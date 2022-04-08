@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto&display=swap');
+
+h1{
+    @include titulo(Parisienne, 3em, bold)
+}
+h3{
+    @include titulo(Parisienne, 1.5em, bold)
+}
+h4{
+    @include texto(Roboto, 1.5em)
+}
+h5{
+    @include footer(Parisienne, 1.5em, white)
+}
+h2{
+    @include titulo(Parisienne, 2em, bold)
+}
